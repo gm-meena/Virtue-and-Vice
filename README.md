@@ -3,7 +3,6 @@
 
 The **Virtue and Vice Game** is an interactive arcade-style Java game where the player controls a cannon to shoot falling bars representing virtues and vices. The goal is to shoot only the positive bars (virtues) to earn points and avoid the negative ones (vices) to preserve lives.
 
----
 
 ## 🎯 Objective
 
@@ -11,7 +10,31 @@ The **Virtue and Vice Game** is an interactive arcade-style Java game where the 
 * Test hand-eye coordination with fast-paced bar drops and dynamic visuals.
 * Demonstrate key Java concepts including object-oriented design, GUI programming, and real-time event handling.
 
----
+## 🚀 How to Run the Project
+
+### 🔁 Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/gm-meena/Virtue-and-Vice.git
+cd Virtue-and-Vice
+```
+
+### 🛠️ Step 2: Compile the Java File (If needed)
+
+If you want to recompile the source file:
+
+```bash
+javac VirtueAndViceGame.java
+```
+
+> This will generate the `VirtueAndViceGame.class` file.
+
+### ▶️ Step 3: Run the Game
+
+```bash
+java VirtueAndViceGame
+
+
 
 ## 🛠️ Built With
 
@@ -21,7 +44,6 @@ The **Virtue and Vice Game** is an interactive arcade-style Java game where the 
 * **Build Tools**: Command Line / (Optional: Maven or Gradle)
 * **Version Control**: Git and GitHub
 
----
 
 ## 👨‍💻 Concepts Used
 
@@ -31,7 +53,7 @@ The **Virtue and Vice Game** is an interactive arcade-style Java game where the 
 * GUI rendering using Java Swing for interactive visual elements.
 * Collision detection and game state management.
 
----
+
 
 ## 🕹️ Game Objective
 
@@ -39,7 +61,7 @@ The **Virtue and Vice Game** is an interactive arcade-style Java game where the 
 * Avoid or do not shoot **vice bars** (red), or you lose a life.
 * The game starts with 3 lives. Game ends when all lives are lost.
 
----
+
 
 ## 🎮 Controls
 
@@ -49,7 +71,7 @@ The **Virtue and Vice Game** is an interactive arcade-style Java game where the 
 * **Start Button** — Begin the game
 * **Pause Button** — Pause/unpause the game
 
----
+
 
 ## 💡 Gameplay Features
 
@@ -59,7 +81,7 @@ The **Virtue and Vice Game** is an interactive arcade-style Java game where the 
 * **Color themes and cannon appearance change every 4 seconds**.
 * Positive and negative bars display relevant motivational messages.
 
----
+
 
 ## 📊 Results
 
@@ -68,7 +90,7 @@ The **Virtue and Vice Game** is an interactive arcade-style Java game where the 
 * The game runs at approximately 60 FPS on most mid-range laptops.
 * Users found visual changes engaging and gameplay addictive.
 
----
+
 
 ## 🔍 Observations
 
@@ -76,7 +98,7 @@ The **Virtue and Vice Game** is an interactive arcade-style Java game where the 
 * Most player lives were lost due to missed bars, not shooting vices.
 * Clean OOP architecture made feature expansion and debugging easier.
 
----
+
 
 ## ⚙️ Tools and Technologies
 
@@ -86,7 +108,7 @@ The **Virtue and Vice Game** is an interactive arcade-style Java game where the 
 * JDK libraries for timer, threading, input handling
 * Git for version control
 
----
+
 
 ## 🌱 Future Scope
 
@@ -96,29 +118,8 @@ The **Virtue and Vice Game** is an interactive arcade-style Java game where the 
 * Add accessibility features like color-blind mode and key remapping.
 * Introduce multiplayer (co-op or versus) mode.
 
----
+
 
 ## 📝 License
 
 This project is licensed under MIT.
-
-## 🚀 How to Run the Project
-
-1. **Clone the repository**
-
-   ```bash
-   git clone https://github.com/<your-username>/virtue-vice-game.git
-   cd virtue-vice-game
-   ```
-
-2. **Compile the code**
-
-   ```bash
-   javac -d bin src/*.java
-   ```
-
-3. **Run the game**
-
-   ```bash
-   java -cp bin Main
-   ```
